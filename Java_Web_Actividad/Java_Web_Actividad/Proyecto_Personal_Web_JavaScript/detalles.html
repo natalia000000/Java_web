@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Detalles de Productos - Tienda Campeones</title>
+</head>
+<body class="bg-gray-100 text-white p-8 min-h-screen" style="background: radial-gradient(circle, rgb(87, 215, 224) 0%, rgb(204, 86, 255) 100%)">
+
+  <!-- NAVBAR -->
+  <nav class="bg-indigo-600 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <span class="text-xl font-bold tracking-wide">Tienda de deportes</span>
+      </div>
+      <div class="hidden md:flex space-x-6 font-medium">
+        <a href="index.html" class="hover:text-gray-300">Inicio</a>
+        <a href="detalles.html" class="hover:text-gray-300">Productos</a>
+        <a href="formulario.html" class="hover:text-gray-300">Formulario</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO -->
+  <main class="flex-grow p-4">
+
+    <section class="text-center py-8">
+      <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Detalles de nuestros productos</h1>
+      <p class="text-lg text-white">Aquí puedes encontrar más información sobre nuestros artículos deportivos destacados.</p>
+    </section>
+
+    <!-- Tarjetas de camisetas -->
+    <section class="mb-16 bg-indigo-800 bg-opacity-40 rounded-3xl p-8 border-2 border-purple-600" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <h2 class="text-center text-4xl font-extrabold text-white my-10">Camisetas deportivas</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Tarjeta 1 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          
+          <img src="https://imgs.search.brave.com/dv2iYVLOdc63hFt10fvZYlOlAQuOqkYPziZhHAwA_0o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZi5j/YW1pc2V0YXNmdXRi/b2wuY29tLmNuL3Vw/bG9hZC90dG1hbGwv/aW1nLzIwMjQwNzAx/LzkwNmU4ODRkMWMx/ZmIwMjM3ZDQ3OWJh/NmI3ODc4ZjQ1LnBu/Zz16LTQwMCw0MDBf/Zi13ZWJw" alt="Camisetas de fútbol" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Camisetas de fútbol</h3>
+            <p class="text-gray-600 mb-4">Camisetas de fútbol cómodas, transpirables y de alta calidad, perfectas para rendir al máximo en cada partido..</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://imgs.search.brave.com/2l1l_TYEjruuRPRvfnSEI-0WgtzG2VvfSAWIszxtWGs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzYzNTg3Mi1NTEM4/MTcyMDY5NDkyMF8w/MTIwMjUtRS1jYW1p/c2V0YS1iYXNrZXRi/YWxsLWhvbWJyZS1u/YmEtbGEtbGFrZXJz/LWFtYXJpbGxvbW9y/YWRvLndlYnA" alt="Camisetas de Básquetbol" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Camisetas de Básquetbol</h3>
+            <p class="text-gray-600 mb-4">Camisetas de baloncesto ligeras y resistentes, diseñadas para máxima movilidad y ventilación en la cancha.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://imgs.search.brave.com/bKGuD6X-7WwLwJ0VMRrmOrOO9DX4gtFIf3QSH10zEIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Zm9ydW1zcG9ydC5j/b20vaW1hZ2VzL3Nh/bG9tb24tY2FtaXNl/dGFzLXRyYWlsLXJ1/bm5pbmctbWFuZ2Et/Y29ydGEtaG9tYnJl/LXNsYWItc3BlZWQt/dGVlLW0tdmlzdGEt/ZGV0YWxsZS0xMDAx/MDI2NzExLTUwMHg1/MDAtZg" alt="camisetas de running" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">camisetas de running</h3>
+            <p class="text-gray-600 mb-4">Camisetas de running transpirables y de secado rápido, ideales para mantenerte cómodo en cada carrera.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tarjetas de Articulos del Gym -->
+    <section class="mb-16 bg-indigo-800 bg-opacity-40 rounded-3xl p-8 border-2 border-purple-600" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <h2 class="text-center text-4xl font-extrabold text-white my-10">Articulos del Gym</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Tarjeta 1 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          
+          <img src="https://image.made-in-china.com/202f0j00JcARQbUnSsoS/Sporting-Goods-Gym-Sports-Equipment-Body-Building-Fitness-Accessories.webp" alt="Mancuernas" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Mancuernas</h3>
+            <p class="text-gray-600 mb-4">Ideales para entrenamientos de fuerza en casa o en el gimnasio.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://media.revistagq.com/photos/5eaaa4deeb787e0009165352/master/w_1600%2Cc_limit/gimnasio%25202.jpg" alt="Cuerdas de entrenamiento" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Cuerdas de entrenamiento</h3>
+            <p class="text-gray-600 mb-4">Mejora tu resistencia y coordinación con una cuerda de alto rendimiento para rutinas intensas.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://imgs.search.brave.com/3e6zQ79kcxmDpfJAyXR1h8cdwYeEYc_ZR94OyP8xq1g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idW5r/ZXJmaXRuZXNzLm14/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyL3NldC1kZS01/LWJhcnJhcy1jdXJ2/YXMtZGUtcGVzby1m/aWpvLTIwLWhhc3Rh/LTYwLWxiLWJ1bmtl/ci1maXRuZXNzLXBh/cmEtZWplcmNpY2lv/LXktZ2ltbmFzaW8t/ZW4tY2FzYS1neW0t/aW1wb3J0LWZpdG5l/c3MtMzAweDMwMC53/ZWJw" alt="Balones" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Barras</h3>
+            <p class="text-gray-600 mb-4">Diseñadas para un agarre cómodo y seguro, ideales para entrenamientos de bíceps y tríceps.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+        <!-- Tarjetas de Articulos de Calzado deportivo -->
+    <section class="mb-16 bg-indigo-800 bg-opacity-40 rounded-3xl p-8 border-2 border-purple-600" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <h2 class="text-center text-4xl font-extrabold text-white my-10">Calzado deportivo</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Tarjeta 1 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          
+          <img src="https://image.made-in-china.com/202f0j00JcARQbUnSsoS/Sporting-Goods-Gym-Sports-Equipment-Body-Building-Fitness-Accessories.webp" alt="Mancuernas" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Mancuernas</h3>
+            <p class="text-gray-600 mb-4">Ideales para entrenamientos de fuerza en casa o en el gimnasio.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://media.revistagq.com/photos/5eaaa4deeb787e0009165352/master/w_1600%2Cc_limit/gimnasio%25202.jpg" alt="Cuerdas de entrenamiento" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Cuerdas de entrenamiento</h3>
+            <p class="text-gray-600 mb-4">Perfectas para mejorar tu resistencia y fuerza cardiovascular.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://imgs.search.brave.com/3e6zQ79kcxmDpfJAyXR1h8cdwYeEYc_ZR94OyP8xq1g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idW5r/ZXJmaXRuZXNzLm14/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyL3NldC1kZS01/LWJhcnJhcy1jdXJ2/YXMtZGUtcGVzby1m/aWpvLTIwLWhhc3Rh/LTYwLWxiLWJ1bmtl/ci1maXRuZXNzLXBh/cmEtZWplcmNpY2lv/LXktZ2ltbmFzaW8t/ZW4tY2FzYS1neW0t/aW1wb3J0LWZpdG5l/c3MtMzAweDMwMC53/ZWJw" alt="Balones" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Barras</h3>
+            <p class="text-gray-600 mb-4">Diseño moderno con material reciclado, ideal para el entrenamiento diario.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
