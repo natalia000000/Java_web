@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen text-white p-8" style="background: radial-gradient(circle, rgb(87, 215, 224) 0%, rgb(204, 86, 255) 100%)">
+    <!-- NAVBAR -->
+    <nav class="bg-indigo-600 text-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <span class="text-xl font-bold tracking-wide">Tienda de deportes</span>
+          </div>
+  
+          <!-- Enlaces -->
+          <div class="hidden md:flex space-x-6 font-medium">
+            <a href="index.html" class="hover:text-gray-300">Inicio</a>
+            <a href="detalles.html" class="hover:text-gray-300">Productos</a>
+            <a href="formulario.html" class="hover:text-gray-300">Formulario</a>
+          </div>
+      </div>
+    </nav>
+
+    <!--  CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main class="flex-grow p-4">
+        <section class="text-center py-8">
+          <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Bienvenido a la tienda Campeones.</h1>
+          <p class="text-lg">Explora y descubre una variedad de articulos deportivos, como camisetas de futbol y mucho más.</p>
+        </section>
+    </main> 
+
+    <!-- CATEGORÍAS -->
+    <h2 class="text-center text-4xl font-extrabold text-white my-10"> 🏀Articulos🏀</h2>
+    <section class="mb-16 bg-indigo-800 bg-opacity-40 rounded-3xl p-8 border-2 border-purple-600" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Tarjetas -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://www.residuosprofesional.com/wp-content/uploads/2024/07/Puma-camisetas-recicladas-22724.jpg" alt="camisetas" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Camisetas</h3>
+            <p class="text-gray-600 mb-4">Descubre una variedad de camisetas de tu equipos favoritos.</p>
+            <a href="detalles.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">detalles</a>
+          </div>
+        </div>
+
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://pesastore.cl/images/1.jpg" alt="Gym" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Gym</h3>
+            <p class="text-gray-600 mb-4">Articulos de gimnacio al mejor precio.</p>
+            <a href="detalles.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">detalles</a>
+          </div>
+        </div>
+
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="https://www.gimnasiosigueiro.com/sites/default/files/field/image/Zapatillas-Nike-700x500.jpg" alt="Aventura" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Calzado deportivo</h3>
+            <p class="text-gray-600 mb-4">Calzado a tu medida para caminar hacia el exito.</p>
+            <a href="detalles.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">detalles</a>
+          </div>
+        </div>
+
+      </div>
+    </section>    
+
+
+
+</body>
+</html>
