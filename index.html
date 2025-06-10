@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de videojuegos</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!--Barra de buscar-->
+    <div class="max-w-4xl mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-4 text-center text-blue-700"> Buscador de videojuegos RAWS API</h1>
+
+        <div class="flex gap-2 mb-">
+            <input type="text" id="searchInput" placeholder="Zelda, Maio, Doom" class="flex-grow px-4 py-2 border shadow">
+
+            <button id="searchBtn" class="bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded-shadow">Buscar</button>
+
+        </div>
+
+        <!--Cargador-->
+        <div id="loader" class="hidden text-center text-gray-600 mb-4"><p>Cargando juegos
+        </p></div>
+
+
+        <!--Resultados de la busqueda -->
+        <div id="results" class="grid sm:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
